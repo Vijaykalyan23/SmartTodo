@@ -23,26 +23,26 @@ SmartTodo is a **MERN (MongoDB, Express, React, Node.js)** productivity app with
    cd backend
    npm install
    node server.js
-2️⃣ Frontend Setup
-powershell
+### 2️⃣ Frontend Setup
+```powershell
 Copy code
 cd frontend
 npm install
 npm run dev
-⚠️ Important Notes
-This repository must never contain secrets.
+```
+### ⚠️ Important Notes
+- This repository must never contain secrets.
 
-Ensure .env is listed in .gitignore (it already is by default).
+- Ensure .env is listed in .gitignore (it already is by default).
 
-If secrets are accidentally committed:
+- If secrets are accidentally committed:
+    - Immediately rotate those credentials.
+    - Remove them from Git history.
 
-Immediately rotate those credentials.
+### 🚀 Project Status
+- **backend**: CRUD tasks, AI suggestion endpoint (optional), JWT auth scaffolded
 
-Remove them from Git history.
+- **frontend**: Task list, add/delete, completion toggle, category filter, sorting
 
-🚀 Project Status
-Backend: CRUD tasks, AI suggestion endpoint (optional), JWT auth scaffolded
+See (backend/.env.example) and project documentation for environment variable details
 
-Frontend: Task list, add/delete, completion toggle, category filter, sorting
-
-See backend/.env.example and project documentation for environment variable details
