@@ -1,0 +1,18 @@
+﻿node : (node:25148) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of 
+file:///C:/Users/vijaykalyan/OneDrive/Desktop/smart-todo/backend/server.js is not specified and it doesn't parse as CommonJS.
+At line:1 char:112
++ ... yan\OneDrive\Desktop\smart-todo\backend'; node server.js 2>&1 | Out-F ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:25148) [M...se as CommonJS.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\vijaykalyan\OneDrive\Desktop\smart-todo\backend\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[dotenv@17.2.3] injecting env (6) from .env -- tip: ΓÜÖ∩╕Å  override existing env vars with { override: true }
+(node:25148) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 
+4.0.0 and will be removed in the next major version
+(node:25148) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver 
+version 4.0.0 and will be removed in the next major version
+≡ƒÜÇ Server running on port 5000
+Γ£à MongoDB Connected
