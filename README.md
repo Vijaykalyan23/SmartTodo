@@ -24,11 +24,11 @@ SmartTodo is a **MERN (MongoDB, Express, React, Node.js)** productivity app with
    npm install
    node server.js
 ### 2️⃣ Frontend Setup
-```powershell
-Copy code
-cd frontend
-npm install
-npm run dev
+  ```powershell
+
+   cd frontend
+   npm install
+   npm run dev
 ```
 ### ⚠️ Important Notes
 - This repository must never contain secrets.
@@ -45,4 +45,5 @@ npm run dev
 - **frontend**: Task list, add/delete, completion toggle, category filter, sorting
 
 See (backend/.env.example) and project documentation for environment variable details
+
 
